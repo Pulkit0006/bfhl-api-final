@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 // ⚠️ Ensure your .env file has GEMINIKEY=...
-const OFFICIAL_EMAIL = "chirag0403.be23@chitkara.edu.in";
+const OFFICIAL_EMAIL = "pulkit1022.be23@chitkara.edu.in";
 const GEMINI_API_KEY = process.env.GEMINIKEY;
 
 console.log("Gemini Key Loaded:", GEMINI_API_KEY ? "YES" : "NO");
